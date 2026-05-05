@@ -1,16 +1,120 @@
-# React + Vite
+# 🌐 React API Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and fully responsive web application built using **React.js** that fetches real-time data from an external API and displays it in a clean, user-friendly interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+* 🔗 API Integration (Real-time data fetching)
+* 📱 Fully Responsive Design (Mobile + Tablet + Desktop)
+* ⚡ Fast and Smooth UI using React
+* 🎨 Clean and Modern UI Design
+* 🔍 Dynamic Data Rendering
+* ♻️ Reusable Components
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **Frontend:** React.js, HTML, CSS, JavaScript
+* **API:** REST API (e.g., OpenWeather / Custom API)
+* **Styling:** CSS / Bootstrap / Material UI
+
+## ⚙️ Installation & Setup
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+```
+
+2. Navigate to project folder:
+
+```bash
+cd your-repo-name
+```
+
+3. Install dependencies:
+
+```bash
+npm install
+```
+
+4. Start the development server:
+
+```bash
+npm start
+```
+
+5. Open in browser:
+
+```
+http://localhost:3000
+```
+
+---
+
+## 🔑 API Configuration
+
+* Get your API key from the provider
+* Add it inside your project (e.g., `.env` file)
+
+Example:
+
+```env
+REACT_APP_API_KEY=your_api_key_here
+```
+
+---
+
+## 📌 Usage
+
+* Enter input (like city name / search query)
+* Fetch real-time data from API
+* View results instantly on UI
+
+---
+
+## 📂 Project Structure
+
+```
+src/
+ ├── components/
+ ├── pages/
+ ├── App.js
+ ├── index.js
+```
+
+---
+
+## 💡 Future Improvements
+
+* Add dark mode 🌙
+* Improve UI animations
+* Add more API features
+* Deploy project online
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+Feel free to fork this repo and submit a pull request.
+
+---
+
+## 🚀 Live Demo
+
+You can view the live version of this project here:
+
+🔗 **Live Demo:** https://genuine-dieffenbachia-2d26e5.netlify.app
+
+This live demo showcases the real-time functionality of the application, including API data fetching, responsive UI across devices, and dynamic user interactions.
+
+### ✨ Demo Highlights
+
+* 🌐 Real-time API data fetching
+* 📱 Fully responsive design (Mobile, Tablet, Desktop)
+* ⚡ Fast and smooth user experience
+* 🔍 Interactive UI components
